@@ -1,0 +1,17 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    position: relative;
+    margin: 50px 50px 50px 130px;  
+     
+}
+
+
+@media only screen and (max-width: 650px) {
+    .main{
+        flex-direction: column;    
+        margin: 10px;
+        gap: 50px;
+    }
+}
